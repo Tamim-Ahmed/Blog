@@ -1,180 +1,232 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Fitness | Homepage</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-</head>
+	<title>THE TRAVEL ANGEL</title>
+	<link rel="icon" href="img/icon/logo.png" type="image/png">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script src="js/jquery.js"></script>
+	<meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>	
+	<script>
+	$(document).ready(function(){
+		$(".button-trig").click(function(){
+			$("#ul").slideToggle();
+			$(".banner-post").css("bottom", "-160px")
+		});
+
+	});
+	
+	</script>
 <body>
-    <section class="header">
-        <div class="container con">
-           <div class="col-md-4 logo">
-               <a href=""><img src="img/logo.png" alt=""></a>
-           </div>
-            <div class="col-md-8 menu">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">HOW IT WORKS</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
+	<div class="top">
+		<img src="img/icon/email.png" alt="">
+		Email: info@thetravelangel.us
+		<img src="img/icon/contact.png" alt="">
+		Helpline: 2168124356
+	</div>
+	<div class="header">
+	<div class="logo">
+		<img class="travel" src="img/logo.jpg" alt="The Travel Angel">
+			</div>
+		<div class="search">
+		<form action="">
+		<input class="search-bar" type="search" placeholder="Product Name...">
+		<button class="submits" type="submit">Search</button>
+		</form>
+		</div>
+		</div>
+		<div class="container">
+		<div class="menu">
+		<button class="button-trig">
+		<div class="trigger"><div class="middletrig"></div></div></button>
+			<ul id="ul">
+				<li class="li"><a href="index.html">HOME</a></li>
+				<li><a href="product.html">PRODUCTS</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="contact.html">CONTACT</a>
+				</li>
+				<li><a href="cart.html">CART</a></li>
+			</ul>
+		</div>
+		<div class="banner-sec">
+			<img class="banner" src="img/banner.jpg" alt="The Travel Angel Eclusive">
+		<div class="banner-post">
+			<h1>THE TRAVEL AGENT</h1>
+			<P>unzip the top compartment and the suitcase instantly transforms into an upright mobile germant rack on wheels</P>
+			<a href="#">SHOP NOW</a>
+			<a href="#">PURCHASE</a>
+		</div>
+</div>
+		
+			<div class="service">
+			<img class="ic" src="img/icon/ic.png" alt="">
+			FREE SHIPPING WORLDWIDE
+			<img class="ic" src="img/icon/ic2.png" alt="">
+			24/7 CUSTOMER SERVICE
+			<img class="ic" src="img/icon/ic3.png" alt="">
+			RETURNS AND EXCHANGES
             </div>
-            <h2>Fitness if a can <span> /</span></h2>
-            <h4>Yes you can <span> /</span></h4>
-        </div>
-    </section>
-    <section class="features">
-       <div class="feature-post">
-        <div class="col-md-3">
-            <img src="img/feature-icon/01.png" alt="">
-            <h3>Resources</h3>
-            <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and</p>
-            <button>Explore more &rArr;</button>
-        </div>
-                <div class="col-md-3">
-            <img src="img/feature-icon/02.png" alt="">
-            <h3>Training & Funding</h3>
-            <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and</p>
-            <button>Explore more &rArr;</button>
-        </div>
-                        <div class="col-md-3">
-            <img src="img/feature-icon/03.png" alt="">
-            <h3> Connect</h3>
-            <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and</p>
-            <button>Explore more &rArr;</button>
-        </div>
-                        <div class="col-md-3">
-            <img src="img/feature-icon/04.png" alt="">
-            <h3>Communicate</h3>
-            <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and</p>
-            <button>Explore more &rArr;</button>
-        </div>
-        </div>
-    </section>
-    <section class="fitness">
-        <div class="fitness1">
-           <div class="col-md-12 fit1">
-            <div class="col-md-4 left">
-                <h4>it’s all about</h4>
-                <h1>fitness first</h1>
-                <img src="img/fit-icon.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud. <br> <a href="">Read More</a></p>
-            </div>
-            <div class="col-md-8 right">
-                <img src="img/grid1.png" class="img-responsive img1" alt="">
-            </div>
-            </div>
-            <div class="col-md-12 fit2">
-                <div class="col-md-8 left2">
-                    <img class="img-responsive" src="img/grid2.png" alt="">
-                </div>
-                <div class="col-md-4 right2">
-                    <h4>LOVE YOUR</h4>
-                    <h1>YOUR BODY</h1>
-                    <img src="img/fit-icon.png" alt="">
-<p>Lorem ipsum dolor sitamet,consectetur adipisicingelit,sed do eiusmodtemporincididunt ut labore etdoloremagna aliqua. 
-Ut enim ad minim veniam, quis nostrud. <br> <a href="">Read More</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="fitness2">
-            <div class="col-md-12 fit3">
-                <div class="col-md-4 left-img">
-                    <img src="img/grid4.png" class="img-responsive" alt="">
-                </div>
-                <div class="col-md-8 right-img">
-                    <img src="img/grid3.png" alt="">
-                </div>
-            </div>
-            <div class="col-md-12 fit4">
-                <div class="col-md-4 fit4-left">
-                    <div class="col-md-10">
-                        <h3>TRACK YOUR</h3>
-                        <h1>LIFESTYLE</h1>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="img/fit4-left.png" alt="">
-                    </div>
-                    <div class="col-md-12">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud.</p>
-                    </div>
-                </div>
-                <div class="col-md-8 fit4-right">
-                    <h1>summer of fun</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud.</p>
-                </div>
-            </div>
-            <div class="col-md-12 fit5">
-                <div class="col-md-8 fit5-left">
-                    <img src="img/grid5.png" class="img-responsive" alt="">
-                </div>
-                <div class="col-md-4 fit5-right">
-                    <img src="img/grid6.png" alt="">
-                </div>
-            </div>
-            <div class="col-md-12 fit6">
-                <div class="col-md-8 fit6-left">
-                    <div class="col-md-10">
-                        <h3>TRACK YOUR</h3>
-                        <h1>get involved in yourself</h1>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="img/fit6-left.png" alt="">
-                    </div>
-                    <div class="col-md-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eu fugiat nulla pariatur.</p></div>
-                </div>
-                <div class="col-md-4 fit6-right">
-                    <div class="col-md-10">
-                        <h3>IMPROVE YOUR</h3>
-                        <h1>EATING HABITS</h1>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="img/fit6-right.png" class="img-responsive" alt="">
-                    </div>
-                    <div class="col-md-12">
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="banner-bottom">
-        <div class="ban-bottom">
-            <img src="img/ban-bottom.png" class="img-responsive" alt="">
-        </div>
-    </section>
-    <section class="footer">
-        <div class="col-md-12 ft-sec">
-            <div class="col-md-4">
-                <h3>RESOURCES</h3>
-                <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group</p>
-            </div>
-              <div class="col-md-5">
-                <h3>About Us</h3>
-                <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group</p>
-            </div>
-            <div class="col-md-3">
-               <h3>Stay in touch</h3>
-                <ul class="nav navbar-nav">
-                    <li class="fb"><a href=""><img src="img/social-icon/fb.png" alt=""></a></li>
-                    <li class="twit"><a href=""><img src="img/social-icon/twit.png" alt=""></a></li>
-                    <li class="y"><a href=""><img src="img/social-icon/y.png" alt=""></a></li>
-                    <li class="link"><a href=""><img src="img/social-icon/link.png" alt=""></a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    
+
+	<div class="collection">
+		<div class="bag-1">
+			<a href="#"><img class="img-1" src="img/bags/bag1.jpg" alt=""></a></div>
+			<div class="overlay-1"><p class="ov1">
+		ELEGANT STYLE BAGS
+			<br>
+			--VIEW ALL COLLECTION--</p></div>
+		<div class="bag-2">
+			<img  class="img-2" src="img/bags/bag2.jpg" alt="">
+		</div>
+		<div class="overlay-2">
+			<h2 class="h2">CASUAL BAGS</h2>
+			<p class="ov2">---VIEW ALL COLLECTION---</p>
+		</div>
+		<div class="bag-3">
+			<img class="img-3" src="img/bags/bag3.jpg" height="250px" width="400px" alt="">
+		</div>
+		<div class="overlay-3">
+			<h2>BLACK LARGE</h2>
+			<p>VIEW ALL COLLECTION</p>
+		</div>
+		<div class="bag-4">
+			<img class="img-4" src="img/bags/bag4.jpg" height="250px" width="365px" alt="">
+		</div>
+			<div class="overlay-4">
+				<h2>MIAMI BEACH</h2>
+				<p>VIEW ALL COLLECTION</p>
+			</div>
+		</div>
+		
+		<div class="post">
+			<h1>FRESH ARRIVALS</h1><br>
+			<p>SED FELIS PRAESENT DONEC BLAND</p><br>
+			<img src="img/icon/star.png" alt="">
+</div>
+
+		<div class="bag-price">
+			<div class="col-3">
+				<a href="#"><img src="img/price-bags/price-1.jpg" height="225px"  width="263px" alt="VENICE BEACH">
+				<h2>VENICE BEACH</h2>
+				<p>$175.00</p>
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#"><img src="img/price-bags/price-2.jpg" width="263px" height="225px" alt="BLACK CARRY-ON">
+				<h2>BLACK CARRY-ON</h2>
+				<p>$175.00</p>
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#"><img src="img/price-bags/price-3.jpg" height="225px" width="263px" alt="MIAMI BEACH CARRY-ON">
+				<h2>MIAMI BEACH CARRY-ON</h2>
+				<p>$175.00</p>
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#"><img src="img/price-bags/price-4.jpg" height="225px" width="262px" alt="MIAMI BEACH CARRY-ON">
+				<h2>VENICE BEACH CARRY ON</h2>
+				<p>$175.00</p></a>
+			</div>
+</div>
+
+		<div class="banner-bottom">
+			<img class="bn-bottom" src="img/banner-bottom.jpg" width="100%" alt="MIAMI BEACH">
+			<div class="banner-bottom-post">
+			<h1>MIAMI BEACH</h1>
+			<h2>UPTO 30% DISCOUNT</h2>
+			<a href="#">
+				<p>SHOP NOW</p>
+			</a>
+		</div>
+</div>
+
+		<div class="subscribe-area">
+			<p>SIGN UP FOR OUR MONTHLY NEWSLETTER</p>
+			<form class="subscribe-sec" action="">
+				<input class="submit-bar" type="text" placeholder="Enter Your Email...">
+				<input class="submit-button" type="submit" value="SUBSCRIBE">
+			</form>
+</div>
+
+			<div class="bottom-sec">
+			<div class="column-3">
+				<div class="bottom-logo">
+					<img src="img/logo-bottom.jpg" alt="THE TRAVEL ANGEL">
+					<p>proin est Pellenteque risus magna vulput vitae sodales  uam morbi non sem lacus por mollis.Nuncondime ntum metus eudo ino lestie sed consectetuer.Lorem ipsum dolor emet ectetur adipicising elid sed doincl.</p>
+					<a href="#"><img src="img/icon/f.png" alt=""></a>
+					<a href="#"><img src="img/icon/t.png" alt=""></a>
+					<a href="#"><img src="img/icon/ins.png" alt=""></a>
+					<a href="#"><img src="img/icon/you.png" alt=""></a>
+				</div>
+				</div>
+				<div class="column-3">
+				
+					<div class="links">
+						<h1>QUICK LINKS</h1>
+						<div class="wid"></div>
+						<div class="bottom-menu">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Products</a></li>
+								<li><a href="#">Faq</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Testimonials</a></li>
+								<li><a href="#">Inspiration</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Cart</a></li>
+							</ul>
+						</div>
+					
+					</div>
+				</div>
+				
+					<div class="column-3">
+								<div class="links">
+						<h1>INFORMATION</h1>
+						<div class="wid"></div>
+						<div class="bottom-menu">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Products</a></li>
+								<li><a href="#">Faq</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Testimonials</a></li>
+								<li><a href="#">Inspiration</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Cart</a></li>
+							</ul>
+						</div>
+					</div>
+					</div>
+					<div class="column-3">
+					<div class="address">
+					<h1>GET IN TOUCH</h1>
+					<div class="wid"></div>
+						<div class="location">
+							<img src="img/icon/location.png" alt="">
+							<p>23 Zevra Hall,Luton Street <br>New York 226688</p>
+						</div>
+						<div class="phone">
+							<img src="img/icon/call.png" 
+							alt="">
+							<p>214.862.6266</p>
+						</div>
+						<div class="e-mail">
+							<img src="img/icon/e-mail.png" alt="">
+							<p>info@thetravelangel.us</p>
+						</div>
+						<div class="time">
+							<img src="img/icon/time.png" alt="">
+							<p>Mon to Sat: 9:25 AM - 7:30 PM <br> Sun : 11:30 PM - 4:30 PM</p>
+						</div>
+						</div>
+					</div>
+			</div>
+	</div>
+	<div class="footer">
+		<p>Copyright &copy; 2017 The Travel Angel.</p>
+	</div>
 </body>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/modernizr-3.6.0.min.js"></script>
 </html>
